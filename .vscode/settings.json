@@ -1,5 +1,8 @@
 {
     "C_Cpp.errorSquiggles": "Disabled",
-    "python.pythonPath": "C:\\Users\\Shreyam Maity\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
+    "python.pythonPath": "C:\\Users\\Shreyam Maity\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "files.associations": {
+        "stdio.h": "c"
+    }
     
 }

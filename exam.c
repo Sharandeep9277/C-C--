@@ -1,10 +1,9 @@
 #include<stdio.h>
 void main(){
 
-    int a = 2,b=3;
+    int a = 5,b;
     
-    printf("%d\n",a*b);
-    printf("%d\n",a/b);
-    printf("%d\n",a%b);
-    printf("%d\n",a&&b);
+    b = a >> 4;
+    printf("%d\n",b);
+    
 }

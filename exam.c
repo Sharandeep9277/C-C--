@@ -1,9 +1,11 @@
-#include<stdio.h>
-void main(){
+#include <stdio.h>
 
-    int a = 5,b;
-    
-    b = a >> 4;
-    printf("%d\n",b);
-    
+void main()
+{
+  int k =5;
+  int *p = &k;
+  int **m = &p;
+  **m = 6;
+  printf("%d\n",k);
+  
 }

@@ -1,10 +1,9 @@
 #include <stdio.h>
-void main()
+
+int main()
 {
-    m();
-}
-void m()
-{
-    printf("hi");
-    m();
+    int array[] ;
+    printf(sizeof(array));
+
+    return 0;
 }
